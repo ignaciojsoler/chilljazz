@@ -14,8 +14,9 @@
     left: 0;
     right: 0;
     z-index: -2;
+    transform: scale(1.1);
     display: block;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/main.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/background.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -93,24 +94,6 @@
 /*-----*/
 
 /*--Youtube--*/
-.yt-background {
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    display: block;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/yt-background.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);  
-}
-
 .yt-logo {
     width: 130px;
 }
